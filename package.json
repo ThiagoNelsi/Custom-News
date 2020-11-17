@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "An algorithm that suggests the best news based on previous personal reading.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThiagoNelsi/Custom-News.git"
@@ -15,5 +13,9 @@
   "bugs": {
     "url": "https://github.com/ThiagoNelsi/Custom-News/issues"
   },
-  "homepage": "https://github.com/ThiagoNelsi/Custom-News#readme"
+  "homepage": "https://github.com/ThiagoNelsi/Custom-News#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {}
 }
