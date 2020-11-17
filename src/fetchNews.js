@@ -1,6 +1,4 @@
 const axios = require('axios');
-const path = require('path');
-const fs = require('fs');
 const { exit } = require('process');
 
 const { API_KEY } = require('../credentials/news_api.json');
@@ -13,7 +11,7 @@ const newsApi = axios.create({
 
 async function fetchNews(options) {
 
-  const countries = ['pt', 'us', 'ca'];
+  const countries = ['br', 'us', 'ca'];
 
   const news = [];
 
